@@ -1,0 +1,17 @@
+{
+  "schema": "gitbroker/envelope/v1",
+  "ulid": "CV5SAHMX96SQDK8BZ7071Z7AB5",
+  "seq": 1,
+  "atom": "call",
+  "agent": "cowork-sim",
+  "why": "reach-back: drop a witnessed record onto peer /work",
+  "proposed_at": "2026-09-22T13:17:49Z",
+  "call": {
+    "method": "POST",
+    "url": "http://127.0.0.1:7070/work",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "body": "{\"by\":\"cowork(sim far end)\",\"kind\":\"record\",\"text\":\"REACH-BACK smoke: the far end can now message our 8 through wire-bridge (witnessed).\"}"
+  }
+}
