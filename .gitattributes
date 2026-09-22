@@ -1,0 +1,2 @@
+commands/*.json merge=union
+receipts/*.json merge=union
